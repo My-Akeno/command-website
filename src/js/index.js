@@ -48,7 +48,7 @@ $(document).ready(function(){
               ${command.parameters?.map(x => '<code>' + x + '</code>').join(' ') || '<code> None </code>'}
               <br><br>
               Example/s:<br>
-              ${command.examples.map(x => '<code> m!' + x + '</code>').join(' ')}
+              ${command.examples.map(x => '<code> ak!' + x + '</code>').join(' ')}
             </p>
            </div>
           </div>
