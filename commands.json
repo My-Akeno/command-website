@@ -889,6 +889,20 @@
     ]
   },
   {
+    "name": "privacy",
+    "aliases": [
+      "privacy"
+    ],
+    "group": "bot",
+    "description": "Display the Privay Policy",
+    "clientPermissions": [
+      "EMBED_LINKS"
+    ],
+    "examples": [
+      "privacy"
+    ]
+  },
+  {
     "name": "commands",
     "aliases": [
       "cmd",
