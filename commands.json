@@ -1636,6 +1636,40 @@
     ]
   },
   {
+    "name": "mutevoice",
+    "aliases": ["mv"],
+    "guildOnly": true,
+    "permissions": [
+      "MUTE_MEMBERS"
+    ],
+    "clientPermissions": [
+      "MUTE_MEMBERS", "EMBED_LINKS"
+    ],
+    "group": "moderation",
+    "description": "mutes everyone who is in your voice channel",
+    "examples": [
+      "mutevoice",
+      "mv"
+    ]
+  },
+  {
+    "name": "unmutevoice",
+    "aliases": ["umv"],
+    "guildOnly": true,
+    "permissions": [
+      "MUTE_MEMBERS"
+    ],
+    "clientPermissions": [
+      "MUTE_MEMBERS", "EMBED_LINKS"
+    ],
+    "group": "moderation",
+    "description": "unmutes everyone who is in your voice channel",
+    "examples": [
+      "unmutevoice",
+      "umv"
+    ]
+  },
+  {
     "name": "unmute",
     "aliases": [
       "undeafen",
